@@ -25,13 +25,14 @@ public class TimeMain extends Observable implements Runnable {
 	
 	public TimeMain(PlantaManagement pPlantasCheck) {
 		this.plantasManagement = pPlantasCheck;
-		this.startedTime = LocalTime.now();//_____
+		
 	}
 	@Override
 	public void run() {
 		
 		Period dias;
 		LocalDate currentDay;
+		this.startedTime = LocalTime.now();//_____
 		int temporal = 0;
 		try{
             while( enable ) {
