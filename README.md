@@ -9,6 +9,7 @@ Para añadir un nuevo tipo de planta:
 
 Luego de añadir la coma pegar:
 
+#######################################################
  {
       "nombre" : "PlantaX",
       "id": "0",
