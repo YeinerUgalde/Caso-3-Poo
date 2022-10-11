@@ -1,0 +1,32 @@
+{   
+    "estaciones":[
+    	{	
+    		"nombre":"Primavera",
+            "SolMax":"30",
+            "SolMin":"15",
+            "MaxRain":"2",
+            "MinRain":"0"
+        },
+        {
+        	"nombre":"Verano",
+            "SolMax":"35",
+            "SolMin":"25",
+            "MaxRain":"1",
+            "MinRain":"0"
+        },
+        {
+        	"nombre":"Otoño",
+            "SolMax":"25",
+            "SolMin":"15",
+            "MaxRain":"2",
+            "MinRain":"0"
+        },
+        {
+        	"nombre":"Invierno",
+            "SolMax":"10",
+            "SolMin":"7",
+            "MaxRain":"1",
+            "MinRain":"0"
+        }
+    ]    
+}
