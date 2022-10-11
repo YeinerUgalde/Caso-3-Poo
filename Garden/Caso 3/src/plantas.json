@@ -1,0 +1,251 @@
+{
+  "VelocidadDeCrecimiento" : "10",
+  "VelocidadDeLaSimulacion" : "1",
+  "plantas" : [ 
+  {
+      "nombre" : "Cilantro",
+      "id": "0",
+      "Vitalidad" : "120",
+      "Fruto" : "Fruto x",
+      "Edad_maxima_en_dias" : "500",
+      "States" : [ 
+      {
+        "EstadoID" : "0",
+        "EstadoName" : "muerta",
+        "RangeTime" : "0",
+        "Imagen" : "../Caso 3/src/Imagenes/CilantroMuerto.jpg"
+      }, 
+      {
+        "EstadoID" : "1",
+        "EstadoName" : "pequeña/albacigo",
+        "RangeTime" : "60",
+        "Imagen" : "../Caso 3/src/Imagenes/CilantroAlbacigo.jpg",
+        "rules" : {
+        	"MinNivelSol" : "10",
+  			"MaxNivelSol" : "30",
+       		"MinNivelAgua" : "0",
+       		"MaxNivelAgua" : "30",
+       		"MinNivelAbono" : "0",
+       		"MaxNivelAbono" : "10"
+        },
+        "effects":{
+        	"bajarAguaEffect":"5",
+        	"bajarAbonoEffect":"3",
+        	"bajarVidaEffect":"1",
+        	"SubirVidaEffect" : "1",
+        	"AumentarAbono":"5",
+        	"AumentarAgua":"5"
+        }
+        
+      }, 
+      {
+        "EstadoID" : "2",
+        "EstadoName" : "joven/meidana",
+        
+        "RangeTime" : "130",
+        "Imagen" : "../Caso 3/src/Imagenes/CilantroJoven.jpg",
+        "rules" : {
+        	"MinNivelSol" : "50",
+        	"MaxNivelSol" : "70",
+       		"MinNivelAgua" : "40",
+        	"MaxNivelAgua" : "60",
+        	"MinNivelAbono" : "40",
+        	"MaxNivelAbono" : "60"
+         },
+         "effects":{
+        	"bajarAguaEffect":"5",
+        	"bajarAbonoEffect":"3",
+        	"bajarVidaEffect":"1",
+        	"SubirVidaEffect" : "1",
+        	"AumentarAbono":"5",
+        	"AumentarAgua":"5"
+         }
+       },
+       {
+         "EstadoID" : "3",
+         "EstadoName" : "adulta/grande",         
+         "RangeTime" : "130",
+         "Imagen" : "../Caso 3/src/Imagenes/CilantroAdulto.jpg",
+         "rules" : {
+        	"MinNivelSol" : "65",
+         	"MaxNivelSol" : "80",
+         	"MinNivelAgua" : "60",
+         	"MaxNivelAgua" : "80",
+         	"MinNivelAbono" : "40",
+         	"MaxNivelAbono" : "60"
+          },
+          "effects":{
+        	"bajarAguaEffect":"5",
+        	"bajarAbonoEffect":"3",
+        	"bajarVidaEffect":"1",
+        	"SubirVidaEffect" : "1",
+        	"AumentarAbono":"5",
+        	"AumentarAgua":"5"
+          }
+        } ]
+  },
+  {
+      "nombre" : "Manzano",
+      "id": "0",
+      "Vitalidad" : "100",
+      "Fruto" : "Manzana",
+      "Edad_maxima_en_dias" : "500",
+      "States" : [ 
+      {
+        "EstadoID" : "0",
+        "EstadoName" : "muerta",
+        "RangeTime" : "60",
+        "Imagen" : "../Caso 3/src/Imagenes/ManzanoMuerto.jpg"
+      }, 
+      {
+        "EstadoID" : "1",
+        "EstadoName" : "pequeña/albacigo",
+        "RangeTime" : "35",
+        "Imagen" : "../Caso 3/src/Imagenes/ManzanoAlbacigo.jpg",
+        "rules" : {
+        	"MinNivelSol" : "50",
+  			"MaxNivelSol" : "70",
+       		"MinNivelAgua" : "30",
+       		"MaxNivelAgua" : "50",
+       		"MinNivelAbono" : "40",
+       		"MaxNivelAbono" : "60"
+        },
+        "effects":{
+        	"bajarAguaEffect":"5",
+        	"bajarAbonoEffect":"3",
+        	"bajarVidaEffect":"1",
+        	"SubirVidaEffect" : "1",
+        	"AumentarAbono":"5",
+        	"AumentarAgua":"5"
+        }
+      }, 
+      {
+        "EstadoID" : "2",
+        "EstadoName" : "joven/meidana",
+        
+        "RangeTime" : "50",
+        "Imagen" : "../Caso 3/src/Imagenes/ManzanoJoven.jpg",
+        "rules" : {
+        	"MinNivelSol" : "50",
+        	"MaxNivelSol" : "70",
+       		"MinNivelAgua" : "40",
+        	"MaxNivelAgua" : "60",
+        	"MinNivelAbono" : "40",
+        	"MaxNivelAbono" : "60"
+         },
+         "effects":{
+        	"bajarAguaEffect":"5",
+        	"bajarAbonoEffect":"3",
+        	"bajarVidaEffect":"1",
+        	"SubirVidaEffect" : "1",
+        	"AumentarAbono":"5",
+        	"AumentarAgua":"5"
+         }
+       },
+       {
+         "EstadoID" : "3",
+         "EstadoName" : "adulta/grande",         
+         "RangeTime" : "90",
+         "Imagen" : "../Caso 3/src/Imagenes/ManzanoAdulto.jpg",
+         "rules" : {
+        	"MinNivelSol" : "65",
+         	"MaxNivelSol" : "80",
+         	"MinNivelAgua" : "60",
+         	"MaxNivelAgua" : "80",
+         	"MinNivelAbono" : "40",
+         	"MaxNivelAbono" : "60"
+          },
+          "effects":{
+        	"bajarAguaEffect":"5",
+        	"bajarAbonoEffect":"3",
+        	"bajarVidaEffect":"1" ,
+        	"SubirVidaEffect" : "1",
+        	"AumentarAbono":"5",
+        	"AumentarAgua":"5"
+          }
+        } ]
+  },
+  {
+      "nombre" : "Cactus",
+      "id": "0",
+      "Vitalidad" : "100",
+      "Fruto" : "Fruto x",
+      "Edad_maxima_en_dias" : "500",
+      "States" : [ 
+      {
+        "EstadoID" : "0",
+        "EstadoName" : "muerta",
+        "RangeTime" : "0",
+        "Imagen" : "../Caso 3/src/Imagenes/CactusMuerto.jpg"
+      }, 
+      {
+        "EstadoID" : "1",
+        "EstadoName" : "pequeña/albacigo",
+        "RangeTime" : "60",
+        "Imagen" : "../Caso 3/src/Imagenes/CactusAlbacigo.jpg",
+        "rules" : {
+        	"MinNivelSol" : "50",
+  			"MaxNivelSol" : "70",
+       		"MinNivelAgua" : "30",
+       		"MaxNivelAgua" : "50",
+       		"MinNivelAbono" : "40",
+       		"MaxNivelAbono" : "60"
+        },
+        "effects":{
+        	"bajarAguaEffect":"5",
+        	"bajarAbonoEffect":"3",
+        	"bajarVidaEffect":"1",
+        	"SubirVidaEffect" : "1",
+        	"AumentarAbono":"5",
+        	"AumentarAgua":"5"
+        }
+      }, 
+      {
+        "EstadoID" : "2",
+        "EstadoName" : "joven/meidana",
+        
+        "RangeTime" : "2",
+        "Imagen" : "../Caso 3/src/Imagenes/CactusJoven.jpg",
+        "rules" : {
+        	"MinNivelSol" : "50",
+        	"MaxNivelSol" : "70",
+       		"MinNivelAgua" : "40",
+        	"MaxNivelAgua" : "60",
+        	"MinNivelAbono" : "40",
+        	"MaxNivelAbono" : "60"
+         },
+         "effects":{
+        	"bajarAguaEffect":"5",
+        	"bajarAbonoEffect":"3",
+        	"bajarVidaEffect":"1",
+        	"SubirVidaEffect" : "1",
+        	"AumentarAbono":"5",
+        	"AumentarAgua":"5"
+        }
+       },
+       {
+         "EstadoID" : "3",
+         "EstadoName" : "adulta/grande",         
+         "RangeTime" : "60",
+         "Imagen" : "../Caso 3/src/Imagenes/CactusAdulto.jpg",
+         "rules" : {
+        	"MinNivelSol" : "65",
+         	"MaxNivelSol" : "80",
+         	"MinNivelAgua" : "60",
+         	"MaxNivelAgua" : "80",
+         	"MinNivelAbono" : "40",
+         	"MaxNivelAbono" : "60"
+          },
+          "effects":{
+        	"bajarAguaEffect":"5",
+        	"bajarAbonoEffect":"3",
+        	"bajarVidaEffect":"1",
+        	"SubirVidaEffect" : "1",
+        	"AumentarAbono":"5",
+        	"AumentarAgua":"5"
+          }
+        }
+        ]
+  }
+  ]
+}
