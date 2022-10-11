@@ -9,14 +9,14 @@ Para añadir un nuevo tipo de planta:
 
 Luego de añadir la coma pegar:
 
-#######################################################
+
  {
       "nombre" : "PlantaX",
       "id": "0",
       "Vitalidad" : "100",
       "Fruto" : "Fruto x",
       "Edad_maxima_en_dias" : "500",
-      "States" : [ 
+      "States" : [
       {
         "EstadoID" : "0",
         "EstadoName" : "muerta",
@@ -44,7 +44,7 @@ Luego de añadir la coma pegar:
         	"AumentarAbono":"5",
         	"AumentarAgua":"5"
         }
-      }, 
+      },
       {
         "EstadoID" : "2",
         "EstadoName" : "joven/meidana",
