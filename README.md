@@ -5,4 +5,5 @@ Caso 3 de poo: Garden
 
 Para añadir un nuevo tipo de planta:
 
-![image](https://user-images.githubusercontent.com/103976664/194978710-8192b6c3-42ab-403a-a2ac-d163117df96b.png)
+![image](https://user-images.githubusercontent.com/103976664/194978755-b4472cfb-b6d0-4a1f-9b1a-45216b810734.png)
+
